@@ -1,17 +1,215 @@
-body {
-    text-align: center;
-    margin-left: 455px;
-    margin-right: 450px;
-    background-color: #f1f1f1;
-    
+/*
+Geral
+*/
 
+img{
+    max-width: 15%;
+    height: auto;
+    padding-bottom: 3%;
 }
 
-#b {
-    border-color: black;
-    background-color: #8B7355;
+body {
+    background-color: sandybrown;
+    font-family: "Open sans", helvetica, ARIAL, SANS-SERIF;
+    COLOR: #4d4d4d;
+}
+
+H1 {
+    color: maroon;
+    text-align: center;
+    margin: 1em;
+    font-family: "Roboto Slab",  helvetica, ARIAL, SANS-SERIF;
+    font-weight: 700;   
+}
+
+h3, H2, h4, #et {
+    text-align: center;
+    margin: 1em;
+    font-family: "Roboto Slab",  helvetica, ARIAL, SANS-SERIF;
+    font-weight: 700;
+    color: black;
+}
+
+#et {
+    text-align: center;
+    margin: 1em;
+    font-family: "Roboto Slab",  helvetica, ARIAL, SANS-SERIF;
+    font-weight: 700;
+    color: darkslateblue;
+}
+
+p {
+    text-align: center;
+    margin: 1em;
+    font-family: "Roboto Slab",  helvetica, ARIAL, SANS-SERIF;
+    font-weight: 700;
+    color: saddlebrown;
+}
+
+
+.botao {
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: #4B0082;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+
+/*
+NAVEGAÇÃO
+*/
+
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+nav > a {
+    position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: silver;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Griffy, serif;
+}
+
+nav ul {
+    background-image: url(fundo/black_hole_sun_v2_by_naturalchemical.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+nav ul li {
+    text-align: center;
+    border-radius: 3px;
+    color: #f1f1f1;
+}
+
+nav ul li a {
+    background-color: #191970;
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 4px 9px;
+    font-size: .9em;
+    border-radius: 6px;
+    width: 100%;
+    color: #f1f1f1;
+    line-height: 30px;
+    
+}
+
+/*
+CABEÇALHO
+*/
+
+header {
+    background-image: url(fundo/tumblr_static_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 28px;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+
+/*
+DEFINICAO
+*/
+
+#definicao {
+    background-size: auto;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    text-align: center;
+    padding: 0 20px;
+    background-color: silver;
+}
+
+#definicao p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+section {
+    background-image: url(fundo/tumblr_static_background.jpg);
+    background-size: auto;
+}
+
+#er, ol {
+    margin-left: 560px;
+    
 }
 
 div {
-    background-color: #CDAA7D;
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > a{
+    color: #f1f1f1;
+    font-size: 24px;
+}
+
+table,th, td {
+    width: 40%;
+    font-size: 16px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#eo {
+    widows: 40%;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+
+
+#ey, # et {
+    text-align: center;
+    margin: 1em;
+    font-family: "Roboto Slab",  helvetica, ARIAL, SANS-SERIF;
+    font-weight: 700;
+    color: black;
+}
+
+#eu{
+    font-size: 13px;
+}
+
+#ei {
+    color: black;
 }
