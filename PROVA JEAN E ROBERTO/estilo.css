@@ -1,0 +1,103 @@
+#menu ul {
+    background-color:#323232;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menu ul li { 
+    margin: left;
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 11px;
+    color: white;
+    text-decoration: none;
+}
+
+#fred {
+    font-size: 26px;   
+}
+
+#nav {
+    display: inline;
+}
+
+
+.column {
+    float: left;
+    width: 49%;
+    margin-right: 7px;
+    padding-left: 40px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#carouselExampleIndicators {
+    margin-top: -15px;;
+}
+
+#sobre{
+    text-align: center;
+    border: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 1200px;
+    margin-left: 100px;
+}
+
+#sobre1{
+    text-align: center;
+    border: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 1200px;
+    margin-left: 200px;
+}
+
+.row {
+    
+    text-align: justify;
+}
+
+#ta {
+    position:absolute;
+	left:10%;
+	margin-left: 620px;
+	margin-top: -300px;
+    width: 0px;
+}
+
+#go {
+	margin-left: 100px;
+	margin-top: px;
+    width: 600px;
+}
+
+#submit {
+    background-color: #238f23;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#negrito {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+
+#mmm{
+    margin-left: 105px;    
+    
+}
